@@ -16,17 +16,19 @@
                     <div class="col-md-7">
                         <table class="table">
                             <tr>
-                                <td>Type Kamera</td>
+                                <td>Type Barang</td>
                                 <td>
                                     <?php
-                                    if ($dt->kode_type == "CNN") {
-                                        echo "Sony";
-                                    } elseif ($dt->kode_type == "CAN") {
-                                        echo "Canon";
-                                    } elseif ($dt->kode_type == "FJF") {
-                                        echo "Fuji Film";
+                                    if ($dt->kode_type == "tenda") {
+                                        echo "Tenda";
+                                    } elseif ($dt->kode_type == "AT") {
+                                        echo "Alat Tidur";
+                                    } elseif ($dt->kode_type == "AM") {
+                                        echo "Alat Masak";
+                                    } elseif ($dt->kode_type == "ADK") {
+                                        echo "Alat Mendaki";
                                     } else {
-                                        echo "<span class='text-danger'>Type Kamera Tidak Terdaftar</span>";
+                                        echo "<span class='text-danger'>Type Barang Tidak Terdaftar</span>";
                                     }
                                     ?>
                                 </td>
@@ -38,14 +40,6 @@
                             <tr>
                                 <td>Warna</td>
                                 <td><?php echo $dt->warna ?></td>
-                            </tr>
-                            <tr>
-                                <td>Input</td>
-                                <td><?php echo $dt->input ?></td>
-                            </tr>
-                            <tr>
-                                <td>Output</td>
-                                <td><?php echo $dt->output ?></td>
                             </tr>
                             <tr>
                                 <td>Harga</td>
