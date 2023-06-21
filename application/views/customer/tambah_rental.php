@@ -2,7 +2,7 @@
 
     <div class="card" style="margin-top: 200px; margin-bottom:70px;">
         <div class="card-header">
-            Form Sewa Kamera
+            Form Sewa Barang
         </div>
         <div class="card-body">
             <?php foreach ($detail as $dt) : ?>

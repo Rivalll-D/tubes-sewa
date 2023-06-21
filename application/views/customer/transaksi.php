@@ -10,7 +10,7 @@
                 <tr>
                     <th>No</th>
                     <th>Nama</th>
-                    <th>Merk Kamera</th>
+                    <th>Merk Barang</th>
                     <th>Harga Sewa</th>
                     <th>Tanggal Sewa</th>
                     <th>Tanggal Kembali</th>
