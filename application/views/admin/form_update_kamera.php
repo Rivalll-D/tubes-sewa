@@ -1,7 +1,7 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Form Update Data Kamera</h1>
+            <h1>Form Update Data Barang</h1>
         </div>
 
         <div class="card">
@@ -14,7 +14,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label>Type Kamera</label>
+                                    <label>Type Barang</label>
                                     <input type="hidden" name="id_kamera" value="<?php echo $mb->id_kamera ?>">
                                     <select name="kode_type" class="form-control">
                                         <option value="<?php echo $mb->kode_type ?>"><?php echo $mb->kode_type ?></option>
@@ -29,17 +29,6 @@
                                     <label>Warna</label>
                                     <input type="text" name="warna" class="form-control" value="<?php echo $mb->warna ?>">
                                     <?php echo form_error('warna', '<div class="text-small text-danger">', '</div>') ?>
-                                </div>
-
-                                <div class="form-group">
-                                    <label>Input</label>
-                                    <input type="text" name="input" class="form-control" value="<?php echo $mb->input ?>">
-                                    <?php echo form_error('input', '<div class="text-small text-danger">', '</div>') ?>
-                                </div>
-                                <div class="form-group">
-                                    <label>Output</label>
-                                    <input type="text" name="output" class="form-control" value="<?php echo $mb->output ?>">
-                                    <?php echo form_error('output', '<div class="text-small text-danger">', '</div>') ?>
                                 </div>
                                 <div class="form-group">
                                     <label>Gambar</label>
