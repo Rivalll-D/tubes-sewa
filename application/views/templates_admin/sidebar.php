@@ -89,7 +89,7 @@
                     </div>
                     <ul class="sidebar-menu">
                         <li><a class="nav-link" href="<?php echo base_url('admin/dashboard') ?>"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a></li>
-                        <li><a class="nav-link" href="<?php echo base_url('admin/data_kamera') ?>"><i class="fas fa-camera"></i> <span>Data Barang</span></a></li>
+                        <li><a class="nav-link" href="<?php echo base_url('admin/data_kamera') ?>"><i class="fa-regular fa-file"></i><span>Data Barang</span></a></li>
                         <li><a class="nav-link" href="<?php echo base_url('admin/data_type') ?>"><i class="fas fa-grip-horizontal"></i> <span>Data Type</span></a></li>
                         <li><a class="nav-link" href="<?php echo base_url('admin/data_customer') ?>"><i class="fas fa-user"></i> <span>Data Customer</span></a></li>
                         <li><a class="nav-link" href="<?php echo base_url('admin/transaksi') ?>"><i class="fas fa-random"></i> <span>Transaksi</span></a></li>
