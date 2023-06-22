@@ -1,5 +1,5 @@
 <table style="width: 60%">
-    <img src="<?php echo base_url() ?>/assets/assets_shop/images/logo.png" width="120" height="120" alt="A3">
+    <img src="<?php echo base_url() ?>/assets/assets_shop/images/logo-01.png" width="120" height="120" alt="A3">
     <h3>Data Pembayaran Anda</h3>
     <?php foreach ($transaksi as $tr) : ?>
         <tr>
@@ -8,7 +8,7 @@
             <td><?php echo $tr->nama ?></td>
         </tr>
         <tr>
-            <td>Merk Kamera</td>
+            <td>Merk Barang</td>
             <td>:</td>
 
             <td><?php echo $tr->merk ?></td>

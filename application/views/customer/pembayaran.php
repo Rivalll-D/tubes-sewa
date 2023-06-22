@@ -9,7 +9,7 @@
                     <table>
                         <?php foreach ($transaksi as $tr) : ?>
                             <tr>
-                                <th class="text-dark">Merk Kamera</th>
+                                <th class="text-dark">Merk Barang</th>
                                 <td>:</td>
 
                                 <td class="text-dark"><?php echo $tr->merk ?></td>
