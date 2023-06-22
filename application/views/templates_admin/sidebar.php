@@ -85,7 +85,7 @@
                         <a href="index.html">Admin</a>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="index.html">ABE-Adventure</a>
+                        <a href="index.html">ABE</a>
                     </div>
                     <ul class="sidebar-menu">
                         <li><a class="nav-link" href="<?php echo base_url('admin/dashboard') ?>"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a></li>
